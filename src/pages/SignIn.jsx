@@ -11,6 +11,7 @@ export default function SignIn() {
   const [formData, setFormData] = useState({ email: "", password: "" });
   const { email, password } = formData;
   const navigate = useNavigate();
+
   function onChange(e) {
     setFormData((prevState) => ({
       ...prevState,
