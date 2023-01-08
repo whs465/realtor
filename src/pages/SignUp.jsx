@@ -12,7 +12,7 @@ import { doc, serverTimestamp, setDoc } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import OAuth from "../components/OAuth";
-import { db } from "../firabase";
+import { db } from "../firebase";
 
 export default function SignUp() {
   const [showPassword, setShowPassword] = useState(false);
